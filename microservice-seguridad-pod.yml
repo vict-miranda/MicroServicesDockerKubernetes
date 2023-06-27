@@ -11,3 +11,6 @@ spec:
           image: isaga01/serviciosapiseguridad
           ports:
             - containerPort: 80
+          env:
+            - name: ConnectionStrings__ConexionDB
+              value: Server=mssql-service;Database=Seguridad;User=sa;Password=123456

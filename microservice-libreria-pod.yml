@@ -11,3 +11,6 @@ spec:
           image: isaga01/serviciosapilibreria
           ports:
             - containerPort: 80
+          env:
+            - name: MongoDb__ConnectionString
+              value: mongodb://isaga01:123456@mongo-service:27017
