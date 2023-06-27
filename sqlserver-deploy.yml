@@ -27,4 +27,4 @@ spec:
           - name: ACCEPT_EULA
             value: "Y"
           - name: SA_PASSWORD
-            value: "Isaga1234"
+            value: "Isaga1234."
