@@ -16,6 +16,6 @@ spec:
           - name: MONGO_INITDB_ROOT_USERNAME
             value: "isaga01"
           - name: MONGO_INITDB_ROOT_PASSWORD
-            value: "123456"
+            value: "Isaga1234."
           ports:
             - containerPort: 27017
