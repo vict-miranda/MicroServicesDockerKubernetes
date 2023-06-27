@@ -31,4 +31,3 @@ spec:
                 value: "Isaga1234."
               ports:
                 - containerPort: 27017
-          imagePullPolicy: Always
